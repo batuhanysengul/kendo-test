@@ -2,21 +2,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.column-uid {
-  flex: 0 0 50px !important;
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2em;
+  color: #888;
 }
 
-.column-id {
-  flex: 0 0 50px !important;
-}
-
-.column-title {
-  flex: 0 0 200px !important;
-}
-
+.column-uid,
+.column-id,
+.column-title,
 .column-body {
-  flex: 0 0 200px !important;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
 }
