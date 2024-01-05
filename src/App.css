@@ -4,3 +4,19 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
+.column-uid {
+  flex: 0 0 50px !important;
+}
+
+.column-id {
+  flex: 0 0 50px !important;
+}
+
+.column-title {
+  flex: 0 0 200px !important;
+}
+
+.column-body {
+  flex: 0 0 200px !important;
+}
